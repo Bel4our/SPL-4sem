@@ -1,0 +1,104 @@
+.authForm, .registrationForm, .notFoundContainer {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #f9fbf8;
+  border: 1px solid #e2e8e0;
+}
+
+.authForm h1, .registrationForm h1, .notFoundContainer h1 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 10px 0;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+input:focus {
+  border-color: #48bb78;
+  outline: none;
+}
+
+input.error {
+  border-color: #f56565;
+  background-color: #fff5f5;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  background-color: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #f56565;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #38a169;
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #f0fff4;
+  border-radius: 6px;
+  border-left: 4px solid #38a169;
+}
+
+.auth-links {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.auth-link {
+  color: #4a5568;
+}
+
+.auth-link button {
+  background: none;
+  border: none;
+  color: #48bb78;
+  padding: 0;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.notFoundContainer {
+  text-align: center;
+  background-color: #fff5f5;
+  border-color: #fed7d7;
+}
+
+.notFoundContainer h1 {
+  color: #e53e3e;
+  font-size: 2rem;
+}
